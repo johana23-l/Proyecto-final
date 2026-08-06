@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <defs><linearGradient id="macGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#a855f7"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient></defs>
+  <rect width="220" height="220" rx="42" fill="#07101d" />
+  <path d="M120 44c16 0 26 10 26 24c0 16-10 28-26 28c-16 0-26-12-26-28c0-16 10-24 26-24z" fill="url(#macGrad)" />
+  <path d="M102 84v86a18 18 0 0 0 36 0V84H102z" fill="#0b1224" />
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 120">
+  <rect width="220" height="120" rx="24" fill="#0f172a" />
+  <path d="M40 60h110" stroke="#fbbf24" stroke-width="14" stroke-linecap="round" />
+  <path d="M148 46l22 14-22 14" fill="#fbbf24" />
+  <text x="110" y="95" fill="#fff" font-size="18" font-family="Inter, sans-serif" text-anchor="middle">Flecha</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <defs><linearGradient id="coffeeGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fb7185"/></linearGradient></defs>
+  <rect width="220" height="220" rx="42" fill="#08101a" />
+  <path d="M64 90h92c12 0 18 10 18 22v14c0 22-18 40-40 40H84c-22 0-40-18-40-40v-14c0-12 6-22 18-22z" fill="#111c31" stroke="#475569" stroke-width="6" />
+  <path d="M162 94c0-12-10-22-22-22h-4v40h4c12 0 22-10 22-18z" fill="url(#coffeeGrad)" opacity="0.18" />
+  <path d="M88 96h52v16H88z" fill="#fde68a" opacity="0.9" />
+  <path d="M88 120h52v8H88z" fill="#f59e0b" />
+  <path d="M54 70c0-16 14-30 30-30h52c16 0 30 14 30 30" fill="none" stroke="#7c3aed" stroke-width="10" stroke-linecap="round" opacity="0.9" />
+</svg>

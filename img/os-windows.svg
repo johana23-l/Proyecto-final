@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <defs><linearGradient id="winGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0b74da"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient></defs>
+  <rect width="220" height="220" rx="42" fill="#0b1224" />
+  <rect x="20" y="24" width="88" height="80" rx="18" fill="url(#winGrad)" />
+  <rect x="112" y="24" width="88" height="80" rx="18" fill="#0d1a35" opacity="0.9" />
+  <rect x="20" y="116" width="88" height="80" rx="18" fill="#0d1a35" opacity="0.9" />
+  <rect x="112" y="116" width="88" height="80" rx="18" fill="url(#winGrad)" />
+</svg>

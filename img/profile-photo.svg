@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="pfgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" rx="36" fill="#0b1222" />
+  <circle cx="150" cy="130" r="72" fill="url(#pfgrad)" opacity="0.22" />
+  <circle cx="150" cy="130" r="64" fill="#0d172d" />
+  <circle cx="150" cy="126" r="34" fill="#eef1ff" opacity="0.92" />
+  <path d="M103 208c24-22 54-20 83-18" fill="none" stroke="#7c3aed" stroke-width="12" stroke-linecap="round" />
+  <path d="M110 118c14-26 52-30 72-10" fill="none" stroke="#5eead4" stroke-width="12" stroke-linecap="round" />
+  <path d="M202 134c12 14 18 34 8 44" fill="none" stroke="#fb7185" stroke-width="12" stroke-linecap="round" />
+  <path d="M90 170c20-8 40 0 54 14" fill="none" stroke="#60a5fa" stroke-width="10" stroke-linecap="round" />
+</svg>

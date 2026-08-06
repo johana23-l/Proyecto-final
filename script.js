@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   })
 
   // Brand click -> top
-  const brand=document.querySelector('.brand');
+  const brand=document.querySelector('.nav-brand');
   if(brand) brand.addEventListener('click',()=>{window.scrollTo({top:0,behavior:'smooth'})})
 
   // Reveal on scroll using IntersectionObserver

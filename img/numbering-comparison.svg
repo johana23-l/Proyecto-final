@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360">
+  <defs>
+    <linearGradient id="decGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#facc15" />
+    </linearGradient>
+    <linearGradient id="binGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+    <linearGradient id="octGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+    <linearGradient id="hexGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#4ade80" />
+    </linearGradient>
+  </defs>
+  <rect width="760" height="360" rx="30" fill="#0f172a" />
+  <g transform="translate(40,30)">
+    <rect x="0" y="0" width="330" height="150" rx="24" fill="url(#decGrad)" opacity="0.95" />
+    <rect x="380" y="0" width="330" height="150" rx="24" fill="url(#binGrad)" opacity="0.95" />
+    <rect x="0" y="180" width="330" height="150" rx="24" fill="url(#octGrad)" opacity="0.95" />
+    <rect x="380" y="180" width="330" height="150" rx="24" fill="url(#hexGrad)" opacity="0.95" />
+    <text x="20" y="34" fill="#fff" font-size="22" font-weight="700">Decimal</text>
+    <text x="20" y="64" fill="#f8fafc" font-size="18">Base 10</text>
+    <text x="20" y="100" fill="#f8fafc" font-size="32">345</text>
+    <text x="20" y="130" fill="#f8fafc" font-size="18">3×10² + 4×10 + 5</text>
+    <text x="400" y="34" fill="#fff" font-size="22" font-weight="700">Binario</text>
+    <text x="400" y="64" fill="#f8fafc" font-size="18">Base 2</text>
+    <text x="400" y="100" fill="#f8fafc" font-size="32">101101</text>
+    <text x="400" y="130" fill="#f8fafc" font-size="18">1×2⁵ + 0×2⁴ + ...</text>
+    <text x="20" y="214" fill="#fff" font-size="22" font-weight="700">Octal</text>
+    <text x="20" y="244" fill="#f8fafc" font-size="18">Base 8</text>
+    <text x="20" y="280" fill="#f8fafc" font-size="32">17</text>
+    <text x="20" y="310" fill="#f8fafc" font-size="18">1×8 + 7</text>
+    <text x="400" y="214" fill="#fff" font-size="22" font-weight="700">Hexadecimal</text>
+    <text x="400" y="244" fill="#f8fafc" font-size="18">Base 16</text>
+    <text x="400" y="280" fill="#f8fafc" font-size="32">1A</text>
+    <text x="400" y="310" fill="#f8fafc" font-size="18">1×16 + 10</text>
+    <path d="M360 20 L380 20 L380 340 L360 340 Z" fill="#94a3b8" opacity="0.18" />
+  </g>
+</svg>

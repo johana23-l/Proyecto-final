@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
   <defs>
-    <linearGradient id="jlGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="jlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#c084fc"/>
-      <stop offset="45%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
       <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="6" result="coloredBlur" />
       <feMerge>
-        <feMergeNode in="coloredBlur" />
-        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-  <rect width="220" height="220" rx="48" fill="#0a0721" />
-  <circle cx="110" cy="110" r="92" fill="none" stroke="url(#jlGradient)" stroke-width="8" opacity="0.38" />
+  <rect width="240" height="240" rx="48" fill="#090618" />
+  <circle cx="120" cy="120" r="92" fill="none" stroke="url(#jlGrad)" stroke-width="10" opacity="0.34" />
   <g filter="url(#glow)">
-    <path d="M70 74 L70 146" stroke="url(#jlGradient)" stroke-width="16" stroke-linecap="round" />
-    <path d="M72 74 L120 74" stroke="url(#jlGradient)" stroke-width="16" stroke-linecap="round" />
-    <path d="M118 82 L118 146" stroke="url(#jlGradient)" stroke-width="16" stroke-linecap="round" />
-    <path d="M118 110 L166 110" stroke="url(#jlGradient)" stroke-width="16" stroke-linecap="round" />
+    <path d="M70 76 L70 164" stroke="url(#jlGrad)" stroke-width="18" stroke-linecap="round" />
+    <path d="M70 76 L120 76" stroke="url(#jlGrad)" stroke-width="18" stroke-linecap="round" />
+    <path d="M120 88 L120 164" stroke="url(#jlGrad)" stroke-width="18" stroke-linecap="round" />
+    <path d="M120 126 L170 126" stroke="url(#jlGrad)" stroke-width="18" stroke-linecap="round" />
   </g>
 </svg>

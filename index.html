@@ -23,192 +23,133 @@
 	</header>
 
 	<main class="container">
-		<!-- Portada -->
-		<section id="home" class="hero">
-			<div class="profile-card card">
+		<!-- HERO / PORTADA -->
+		<section id="home" class="hero-grid">
+			<div class="hero-big reveal reveal-delay">
+				<div class="hero-image">
+					<img src="img/unit1-illustration.svg" alt="Portada Johana" />
+				</div>
+				<div class="hero-title">
+					<h2>Johana Laica — Ingeniería en Software</h2>
+					<p>Estudiante de Ingeniería en Software. Apasionada por la tecnología, fútbol y el aprendizaje continuo. Este portafolio reúne contenido educativo y ejemplos prácticos de tres unidades.</p>
+				</div>
+			</div>
+
+			<aside class="profile-card reveal">
 				<img class="profile-pic" src="img/profile.svg" alt="Foto de perfil" />
 				<div class="profile-name">
-					<h2>Johana Laica</h2>
+					<h3>Johana Laica</h3>
 					<p>Soy de la ciudad de Salcedo, tengo 20 años, me gusta jugar fútbol y actualmente estudio Ingeniería en Software.</p>
-				</div>
-				<div class="logo-small">
-					<img src="img/logo.svg" alt="Logo ingeniería" style="width:72px;height:72px" />
 				</div>
 				<div class="progress-card">
 					<div class="unit-line"> <div>Unidad 1</div> <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
 					<div class="unit-line"> <div>Unidad 2</div> <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
 					<div class="unit-line"> <div>Unidad 3</div> <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star dim">★</span></div></div>
 				</div>
-			</div>
+			</aside>
+		</section>
 
-			<div>
-				<div class="card">
-					<h3>Bienvenido</h3>
-					<p>Portafolio educativo con las tres unidades completas: Arquitectura del computador, Algoritmos y Python. Navega por el menú para ver cada sección.</p>
-					<div class="separator"></div>
-					<img src="img/unit1-illustration.svg" alt="unidad1" style="max-width:100%" />
+		<!-- UNIDAD 1 -->
+		<section id="unidad1" class="section">
+			<div class="section-inner reveal">
+				<div class="section-header">
+					<div>
+						<h3>Unidad 1 — Arquitectura del Computador</h3>
+						<p>La arquitectura del computador describe la organización física y lógica de los componentes que permiten el funcionamiento del sistema. A continuación se presentan definiciones, funciones, componentes y ejemplos prácticos.</p>
+					</div>
+					<div class="cover">
+						<img src="img/unit1-illustration.svg" alt="Arquitectura del computador" />
+					</div>
+				</div>
+
+				<div class="grid-cards">
+					<div class="card reveal">
+						<h4>Arquitectura del Computador</h4>
+						<p><strong>Definición:</strong> Describe la organización lógica y física de los componentes que permiten el funcionamiento de la computadora.</p>
+						<p><strong>Importancia:</strong> Optimiza rendimiento, consumo y compatibilidad hardware-software.</p>
+						<div class="separator"></div>
+						<img src="img/cpu.svg" alt="imagen arquitectura" />
+					</div>
+
+					<div class="card reveal">
+						<h4>Componentes principales</h4>
+						<p>CPU, Memoria RAM, HDD/SSD, Tarjeta madre, GPU, PSU, dispositivos de entrada/salida y almacenamiento.</p>
+					</div>
+
+					<div class="card reveal">
+						<h4>Ejemplos y aplicaciones</h4>
+						<p>Computadoras personales, servidores, sistemas embebidos y dispositivos móviles.</p>
+					</div>
+
+					<div class="card reveal">
+						<h4>CPU</h4>
+						<img src="img/cpu.svg" alt="CPU" />
+						<p>Procesadores Intel/AMD. Núcleos, frecuencia y cache determinan rendimiento.</p>
+					</div>
+
+					<div class="card reveal">
+						<h4>Memoria RAM</h4>
+						<img src="img/ram.svg" alt="RAM" />
+						<p>Memoria volátil para programas en ejecución (DDR4/DDR5).</p>
+					</div>
+
+					<div class="card reveal">
+						<h4>Almacenamiento</h4>
+						<img src="img/ssd.svg" alt="SSD" />
+						<p>HDD y SSD: almacenamiento persistente, SSD más veloz.</p>
+					</div>
+
+					<div class="card reveal">
+						<h4>Tarjeta madre y PSU</h4>
+						<img src="img/motherboard.svg" alt="Motherboard" />
+						<p>Interconexión de componentes y suministro de energía.</p>
+					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Unidad 1 -->
-		<section id="unidad1" class="section">
-			<h3>Unidad 1 — Arquitectura del Computador</h3>
-			<div class="flex">
-				<div class="card">
-					<h4>Arquitectura del Computador</h4>
-					<p><strong>Definición:</strong> La arquitectura del computador describe la organización lógica y física de los componentes que permiten el funcionamiento del sistema computacional.</p>
-					<p><strong>Importancia:</strong> Es fundamental para optimizar rendimiento, consumo energético y compatibilidad entre hardware y software.</p>
-					<p><strong>Características:</strong> Jerarquía de memoria, conjunto de instrucciones, paralelismo, diseño modular.</p>
-					<p><strong>Funciones:</strong> Procesamiento de instrucciones, gestión de memoria, control de E/S y comunicación entre componentes.</p>
-					<p><strong>Aplicaciones:</strong> Computadoras personales, servidores, sistemas embebidos, dispositivos móviles.</p>
-					<div class="separator"></div>
-					<img src="img/unit1-illustration.svg" alt="ilustración arquitectura" />
+		<!-- UNIDAD: SISTEMAS OPERATIVOS -->
+		<section class="section">
+			<div class="section-inner reveal">
+				<div class="section-header">
+					<div>
+						<h3>Sistemas Operativos</h3>
+						<p>Un sistema operativo (SO) gestiona recursos, provee interfaces y servicios a aplicaciones.</p>
+					</div>
+					<div class="cover">
+						<img src="img/unit1-illustration.svg" alt="Sistemas operativos" />
+					</div>
 				</div>
 
-				<div class="card">
-					<h4>Componentes del Computador</h4>
-					<div class="separator"></div>
-					<div class="flex">
-						<div class="card">
-							<img src="img/cpu.svg" alt="CPU" />
-							<h4>CPU</h4>
-							<p><strong>Definición:</strong> Unidad central de procesamiento que ejecuta instrucciones.</p>
-							<p><strong>Función:</strong> Ejecutar cálculos y controlar otros componentes.</p>
-							<p><strong>Características:</strong> Núcleos, frecuencia, cache.</p>
-							<p><strong>Ejemplo:</strong> Procesadores Intel y AMD.</p>
-						</div>
-						<div class="card">
-							<img src="img/ram.svg" alt="RAM" />
-							<h4>Memoria RAM</h4>
-							<p><strong>Definición:</strong> Memoria volátil donde se cargan programas en ejecución.</p>
-							<p><strong>Función:</strong> Almacenar temporalmente datos e instrucciones.</p>
-							<p><strong>Características:</strong> Capacidad, velocidad, latencia.</p>
-							<p><strong>Ejemplo:</strong> DDR4, DDR5.</p>
-						</div>
-						<div class="card">
-							<img src="img/hdd.svg" alt="HDD" />
-							<h4>Disco duro HDD</h4>
-							<p><strong>Definición:</strong> Dispositivo magnético de almacenamiento persistente.</p>
-							<p><strong>Función:</strong> Guardar información a largo plazo.</p>
-							<p><strong>Características:</strong> Alta capacidad, menor velocidad que SSD.</p>
-							<p><strong>Ejemplo:</strong> 1TB, 2TB mecánico.</p>
-						</div>
-						<div class="card">
-							<img src="img/ssd.svg" alt="SSD" />
-							<h4>Disco SSD</h4>
-							<p><strong>Definición:</strong> Unidad de estado sólido basada en memoria flash.</p>
-							<p><strong>Función:</strong> Almacenamiento persistente de alta velocidad.</p>
-							<p><strong>Características:</strong> Mayor velocidad, menor latencia.</p>
-							<p><strong>Ejemplo:</strong> NVMe, SATA SSD.</p>
-						</div>
+				<div class="grid-cards">
+					<div class="card reveal">
+						<img src="img/windows.svg" alt="Windows" />
+						<h4>Windows</h4>
+						<p><strong>Historia:</strong> Microsoft. <strong>Ventajas:</strong> Compatibilidad. <strong>Aplicaciones:</strong> Usuarios y empresas.</p>
 					</div>
-					<div class="flex" style="margin-top:12px">
-						<div class="card">
-							<img src="img/motherboard.svg" alt="Motherboard" />
-							<h4>Tarjeta madre</h4>
-							<p><strong>Definición:</strong> Placa base que interconecta componentes.</p>
-							<p><strong>Función:</strong> Suministrar comunicación y energía entre partes.</p>
-							<p><strong>Características:</strong> Chipset, ranuras, conectores.</p>
-							<p><strong>Ejemplo:</strong> ATX, Micro-ATX.</p>
-						</div>
-						<div class="card">
-							<img src="img/gpu.svg" alt="GPU" />
-							<h4>Tarjeta gráfica</h4>
-							<p><strong>Definición:</strong> Procesador especializado en gráficos y paralelismo.</p>
-							<p><strong>Función:</strong> Renderizado de imágenes y cálculos paralelos.</p>
-							<p><strong>Características:</strong> VRAM, núcleos CUDA/Stream.</p>
-							<p><strong>Ejemplo:</strong> NVIDIA, AMD.</p>
-						</div>
-						<div class="card">
-							<img src="img/psu.svg" alt="PSU" />
-							<h4>Fuente de poder</h4>
-							<p><strong>Definición:</strong> Suministra energía eléctrica estable al sistema.</p>
-							<p><strong>Función:</strong> Convertir AC a DC y distribuir voltajes.</p>
-							<p><strong>Características:</strong> Potencia nominal, eficiencia.</p>
-							<p><strong>Ejemplo:</strong> 500W, 80+ Bronze.</p>
-						</div>
+					<div class="card reveal">
+						<img src="img/linux.svg" alt="Linux" />
+						<h4>Linux</h4>
+						<p><strong>Historia:</strong> Kernel de Linus Torvalds. <strong>Ventajas:</strong> Estabilidad y comunidad.</p>
 					</div>
-					<div class="flex" style="margin-top:12px">
-						<div class="card">
-							<img src="img/input.svg" alt="Entrada" />
-							<h4>Dispositivos de entrada</h4>
-							<p><strong>Definición:</strong> Periféricos que permiten introducir datos.</p>
-							<p><strong>Función:</strong> Enviar información al sistema.</p>
-							<p><strong>Ejemplo:</strong> Teclado, ratón, cámara.</p>
-						</div>
-						<div class="card">
-							<img src="img/output.svg" alt="Salida" />
-							<h4>Dispositivos de salida</h4>
-							<p><strong>Definición:</strong> Periféricos que muestran información al usuario.</p>
-							<p><strong>Ejemplo:</strong> Monitor, impresora, altavoces.</p>
-						</div>
-						<div class="card">
-							<img src="img/storage.svg" alt="Almacenamiento" />
-							<h4>Dispositivos de almacenamiento</h4>
-							<p><strong>Definición:</strong> Medios para guardar datos permanentemente.</p>
-							<p><strong>Ejemplo:</strong> HDD, SSD, USB.</p>
-						</div>
+					<div class="card reveal">
+						<img src="img/macos.svg" alt="macOS" />
+						<h4>macOS</h4>
+						<p><strong>Historia:</strong> Apple/NeXT. <strong>Ventajas:</strong> Integración y diseño.</p>
+					</div>
+					<div class="card reveal">
+						<img src="img/android.svg" alt="Android" />
+						<h4>Android</h4>
+						<p>Sistema móvil basado en Linux, amplio ecosistema.</p>
+					</div>
+					<div class="card reveal">
+						<img src="img/ios.svg" alt="iOS" />
+						<h4>iOS</h4>
+						<p>Sistema móvil de Apple, enfoque en seguridad y experiencia.</p>
 					</div>
 				</div>
 			</div>
-
-			<div class="separator"></div>
-
-			<h4>Sistemas Operativos</h4>
-			<p>Un sistema operativo (SO) es el software que gestiona los recursos del hardware y ofrece servicios a las aplicaciones.</p>
-			<div class="flex">
-				<div class="card">
-					<img src="img/windows.svg" alt="Windows" />
-					<h4>Windows</h4>
-					<p><strong>Historia:</strong> Desarrollado por Microsoft, popular en PCs desde los 80s.</p>
-					<p><strong>Definición:</strong> SO propietario orientado a usuario y empresas.</p>
-					<p><strong>Características:</strong> Interfaz gráfica, compatibilidad amplia, gran ecosistema.</p>
-					<p><strong>Ventajas:</strong> Muchas aplicaciones, soporte comercial.</p>
-					<p><strong>Desventajas:</strong> Licencias, mayor vulnerabilidad histórica.</p>
-					<p><strong>Aplicaciones:</strong> Ofimática, juegos, desarrollo.</p>
-				</div>
-				<div class="card">
-					<img src="img/linux.svg" alt="Linux" />
-					<h4>Linux</h4>
-					<p><strong>Historia:</strong> Kernel iniciado por Linus Torvalds en 1991.</p>
-					<p><strong>Definición:</strong> Sistema operativo libre y modular con múltiples distribuciones.</p>
-					<p><strong>Características:</strong> Estable, seguro, personalizable.</p>
-					<p><strong>Ventajas:</strong> Libre, buena comunidad, ideal para servidores.</p>
-					<p><strong>Desventajas:</strong> Curva de aprendizaje para nuevos usuarios.</p>
-					<p><strong>Aplicaciones:</strong> Servidores, desarrollo, IoT.</p>
-				</div>
-				<div class="card">
-					<img src="img/macos.svg" alt="macOS" />
-					<h4>macOS</h4>
-					<p><strong>Historia:</strong> Sistema de Apple heredero de NeXT, popular en creativos.</p>
-					<p><strong>Definición:</strong> SO propietario para hardware Apple.</p>
-					<p><strong>Características:</strong> Diseño pulido, integración con ecosistema Apple.</p>
-					<p><strong>Ventajas:</strong> Experiencia consistente, buen soporte de multimedia.</p>
-					<p><strong>Desventajas:</strong> Limitado al hardware Apple y costos.</p>
-					<p><strong>Aplicaciones:</strong> Edición, desarrollo, diseño.</p>
-				</div>
-				<div class="card">
-					<img src="img/android.svg" alt="Android" />
-					<h4>Android</h4>
-					<p><strong>Historia:</strong> Nacido para móviles, liderado por Google.</p>
-					<p><strong>Definición:</strong> SO basado en Linux para dispositivos móviles.</p>
-					<p><strong>Características:</strong> Open source (parcial), ecosistema de apps en Play Store.</p>
-					<p><strong>Ventajas:</strong> Amplia compatibilidad, personalización.</p>
-					<p><strong>Desventajas:</strong> Fragmentación entre versiones.</p>
-					<p><strong>Aplicaciones:</strong> Teléfonos, tablets, TV.</p>
-				</div>
-				<div class="card">
-					<img src="img/ios.svg" alt="iOS" />
-					<h4>iOS</h4>
-					<p><strong>Historia:</strong> Lanzado por Apple en 2007 con el iPhone.</p>
-					<p><strong>Definición:</strong> SO móvil de Apple, cerrado y optimizado para sus dispositivos.</p>
-					<p><strong>Características:</strong> Seguridad, rendimiento consistente, App Store.</p>
-					<p><strong>Ventajas:</strong> Ecosistema integrado y estabilidad.</p>
-					<p><strong>Desventajas:</strong> Menor personalización y dependencia de Apple.</p>
-					<p><strong>Aplicaciones:</strong> Móviles, tablets.</p>
-				</div>
-			</div>
+		</section>
 
 			<div class="separator"></div>
 
@@ -243,23 +184,44 @@
 				</div>
 			</div>
 
-			<div class="separator"></div>
-			<div class="card">
-				<h4>Tabla comparativa</h4>
-				<div class="table">
-					<table>
-						<thead><tr><th>Sistema</th><th>Base</th><th>Símbolos ejemplos</th></tr></thead>
-						<tbody>
-							<tr><td>Decimal</td><td>10</td><td>0-9</td></tr>
-							<tr><td>Binario</td><td>2</td><td>0-1</td></tr>
-							<tr><td>Octal</td><td>8</td><td>0-7</td></tr>
-							<tr><td>Hexadecimal</td><td>16</td><td>0-9,A-F</td></tr>
-						</tbody>
-					</table>
+			<div class="section-inner reveal">
+				<h4 class="reveal">Sistemas de Numeración</h4>
+				<div class="grid-cards">
+					<div class="card reveal">
+						<h4>Sistema Decimal</h4>
+						<p><strong>Base:</strong> 10. <strong>Símbolos:</strong> 0-9. <strong>Ejemplo:</strong> 345 = 3*10^2 + 4*10 + 5</p>
+					</div>
+					<div class="card reveal">
+						<h4>Sistema Binario</h4>
+						<p><strong>Base:</strong> 2. <strong>Ejemplo:</strong> 1101₂ = 13₁₀</p>
+					</div>
+					<div class="card reveal">
+						<h4>Sistema Octal</h4>
+						<p><strong>Base:</strong> 8. <strong>Ejemplo:</strong> 17₈ = 15₁₀</p>
+					</div>
+					<div class="card reveal">
+						<h4>Sistema Hexadecimal</h4>
+						<p><strong>Base:</strong> 16. <strong>Ejemplo:</strong> 1A₁₆ = 26₁₀</p>
+					</div>
 				</div>
+
 				<div class="separator"></div>
-				<h4>Conversión: ejemplo paso a paso</h4>
-				<p>Convertir 45₁₀ a binario: 45/2 = 22 r1, 22/2=11 r0, 11/2=5 r1, 5/2=2 r1, 2/2=1 r0, 1/2=0 r1 → leer restos de abajo arriba: 101101₂</p>
+				<div class="card reveal">
+					<h4>Tabla comparativa y conversión</h4>
+					<div class="table">
+						<table>
+							<thead><tr><th>Sistema</th><th>Base</th><th>Símbolos</th></tr></thead>
+							<tbody>
+								<tr><td>Decimal</td><td>10</td><td>0-9</td></tr>
+								<tr><td>Binario</td><td>2</td><td>0-1</td></tr>
+								<tr><td>Octal</td><td>8</td><td>0-7</td></tr>
+								<tr><td>Hexadecimal</td><td>16</td><td>0-9,A-F</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="separator"></div>
+					<p>Conversión paso a paso: 45₁₀ → 101101₂ (divisiones sucesivas y lectura de restos).</p>
+				</div>
 			</div>
 		</section>
 

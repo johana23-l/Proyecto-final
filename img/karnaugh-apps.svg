@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect x="24" y="24" width="592" height="372" rx="40" fill="#0b1220" stroke="#334155" stroke-width="4" />
+  <path d="M100 120h440v160H100z" fill="#111c36" stroke="#60a5fa" stroke-width="4" rx="24" />
+  <circle cx="180" cy="200" r="32" fill="#60a5fa" />
+  <circle cx="260" cy="200" r="32" fill="#8b5cf6" />
+  <circle cx="340" cy="200" r="32" fill="#38bdf8" />
+  <circle cx="420" cy="200" r="32" fill="#a78bfa" />
+  <text x="140" y="320" fill="#dbeafe" font-family="Arial" font-size="18">Circuitos digitales y eficiencia lógica</text>
+</svg>

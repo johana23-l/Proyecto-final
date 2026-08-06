@@ -2,737 +2,244 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portafolio - Johana Laica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unidad 3 - Python y Mapas de Karnaugh</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page-frame">
+  <div class="page-shell">
     <header class="topbar">
-      <div class="brand-card">
-        <div class="brand-mark">JL</div>
-        <div class="brand-copy">
-          <p class="brand-name">Johana Laica</p>
-          <p class="brand-subtitle">Ingeniería en Software</p>
+      <div class="brand">
+        <div class="brand-mark">U3</div>
+        <div>
+          <p class="brand-title">Unidad 3</p>
+          <p class="brand-subtitle">Python y Mapas de Karnaugh</p>
         </div>
       </div>
-      <nav class="nav-menu" aria-label="Menú principal">
-        <a href="#home">Inicio</a>
-        <a href="#unidad1">Unidad 1</a>
-        <a href="#unidad2">Unidad 2</a>
-        <a href="#unidad3">Unidad 3</a>
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav-menu">
+        <a href="#intro">Inicio</a>
+        <a href="#basicos">Básicos</a>
+        <a href="#ejemplos">Ejemplos</a>
+        <a href="#karnaugh">Karnaugh</a>
+        <a href="#aplicaciones">Aplicaciones</a>
       </nav>
     </header>
 
-    <main class="page-content">
-      <section id="home" class="hero-section section reveal show">
+    <main>
+      <section id="intro" class="section hero-section reveal-card">
         <div class="hero-copy">
-          <span class="eyebrow">Portafolio Digital</span>
-          <h1>Johana Laica</h1>
-          <p class="hero-text">Soy de la ciudad de Salcedo, tengo 20 años, me gusta jugar fútbol y estudio Ingeniería en Software.</p>
-          <div class="hero-stats">
-            <article class="stat-card">
-              <h3>Unidad 1</h3>
-              <p>⭐⭐⭐</p>
-            </article>
-            <article class="stat-card">
-              <h3>Unidad 2</h3>
-              <p>⭐⭐⭐</p>
-            </article>
-            <article class="stat-card">
-              <h3>Unidad 3</h3>
-              <p>⭐</p>
-            </article>
-          </div>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#unidad1">Ver Unidad 1</a>
-            <a class="button button-secondary" href="#unidad3">Ir a Unidad 3</a>
-          </div>
-        </div>
-        <div class="hero-visual">
-          <div class="profile-card">
-            <img src="img/foto.jpg" alt="Foto de perfil de Johana Laica" />
-            <div class="profile-info">
-              <p class="profile-label">Perfil</p>
-              <h2>Estudiante de Ingeniería</h2>
-              <p>Apasionada por la tecnología, la programación y el diseño visual.</p>
-            </div>
-          </div>
-          <div class="highlight-card">
-            <h3>Johana Laica - Ingeniería en software</h3>
-            <p>Diseño creativo con glassmorphism, animaciones suaves y secciones completas para cada tema.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="unidad1" class="section reveal">
-        <div class="section-header">
-          <span class="eyebrow">Unidad 1</span>
-          <h2>Arquitectura del Computador</h2>
-          <p>Explora la estructura interna del computador, sus componentes, los sistemas operativos y los sistemas de numeración con ejemplos prácticos.</p>
-        </div>
-
-        <div class="section-grid architecture-grid">
-          <article class="glass-card large-card">
-            <div class="card-title">
-              <h3>Arquitectura del computador</h3>
-              <p>Componentes principales y su función dentro del sistema.</p>
-            </div>
-            <img src="img/architecture-diagram.svg" alt="Diagrama de arquitectura del computador" />
-            <div class="card-content">
-              <p>La arquitectura del computador describe cómo los componentes internos trabajan juntos para procesar información. Incluye CPU, memoria RAM, placa madre, unidades de almacenamiento, tarjetas de expansión y buses de datos.</p>
-              <p>Esta estructura permite ejecutar instrucciones, administrar memoria y comunicarse con dispositivos externos.</p>
-            </div>
-          </article>
-
-          <article class="glass-card card-list">
-            <h3>Componentes clave</h3>
-            <div class="feature-item">
-              <strong>CPU</strong>
-              <p>Unidad central de procesamiento que interpreta instrucciones y realiza cálculos.</p>
-            </div>
-            <div class="feature-item">
-              <strong>Memoria RAM</strong>
-              <p>Almacena datos temporales y programas en ejecución para acceso rápido.</p>
-            </div>
-            <div class="feature-item">
-              <strong>Placa madre</strong>
-              <p>Conecta todos los componentes y distribuye energía y señales de datos.</p>
-            </div>
-            <div class="feature-item">
-              <strong>Almacenamiento</strong>
-              <p>HDD y SSD guardan datos de forma permanente y permiten cargas rápidas.</p>
-            </div>
-          </article>
-        </div>
-
-        <div class="section-divider"></div>
-
-        <div class="section-header">
-          <span class="eyebrow">Sistemas Operativos</span>
-          <h2>Windows, Linux, macOS, Android e iOS</h2>
-          <p>Cada sistema operativo administra recursos, presenta una interfaz y ofrece herramientas únicas para usuarios y desarrolladores.</p>
-        </div>
-
-        <div class="os-grid">
-          <article class="os-card reveal-card">
-            <img src="img/os-windows.svg" alt="Logo Windows" />
-            <h3>Windows</h3>
-            <p>Desarrollado por Microsoft, Windows es un sistema operativo de escritorio conocido por su compatibilidad con multitud de aplicaciones y juegos.</p>
-            <p>Presenta una interfaz gráfica intuitiva, soporte para periféricos y actualizaciones constantes.</p>
-          </article>
-          <article class="os-card reveal-card">
-            <img src="img/os-linux.svg" alt="Logo Linux" />
-            <h3>Linux</h3>
-            <p>Linux es un kernel abierto que alimenta múltiples distribuciones. Es famoso por su estabilidad, seguridad y flexibilidad.</p>
-            <p>Se usa en servidores, desarrollo, educación y dispositivos embebidos.</p>
-          </article>
-          <article class="os-card reveal-card">
-            <img src="img/os-macos.svg" alt="Logo macOS" />
-            <h3>macOS</h3>
-            <p>macOS es el sistema operativo de Apple para computadoras Mac. Ofrece integración nativa con hardware Apple y una experiencia visual pulida.</p>
-            <p>Destaca en diseño, creación de contenido y ambientes creativos.</p>
-          </article>
-          <article class="os-card reveal-card">
-            <img src="img/os-android.svg" alt="Logo Android" />
-            <h3>Android</h3>
-            <p>Android es un sistema móvil abierto basado en Linux. Es utilizado por cientos de marcas y ofrece gran personalización y acceso a millones de apps.</p>
-            <p>Se utiliza en teléfonos, tablets y dispositivos conectados.</p>
-          </article>
-          <article class="os-card reveal-card">
-            <img src="img/os-ios.svg" alt="Logo iOS" />
-            <h3>iOS</h3>
-            <p>iOS es el sistema móvil exclusivo de Apple. Está optimizado para rendimiento, seguridad y una experiencia de usuario uniforme.</p>
-            <p>Se destaca por su ecosistema cerrado y actualizaciones rápidas.</p>
-          </article>
-        </div>
-
-        <div class="section-divider"></div>
-
-        <div class="section-header">
-          <span class="eyebrow">Sistemas de Numeración</span>
-          <h2>Decimal, Binario, Octal y Hexadecimal</h2>
-          <p>Los sistemas de numeración son esenciales para comprender cómo los computadores representan y procesan información.</p>
-        </div>
-
-        <article class="glass-card numbering-card reveal-card">
-          <img src="img/numbering-comparison.svg" alt="Comparativa de sistemas decimal, binario, octal y hexadecimal" />
-          <div class="card-content">
-            <p>El sistema decimal usa base 10, el binario usa base 2, el octal usa base 8 y el hexadecimal usa base 16.</p>
-            <p>Cada uno es útil para contextos particulares: el decimal para humanos, el binario para electrónica digital, el octal para agrupación de bits y el hexadecimal para direcciones de memoria.</p>
-          </div>
-        </article>
-
-        <div class="grid-4">
-          <article class="glass-card small-card reveal-card">
-            <h3>Decimal</h3>
-            <p>Base 10, dígitos del 0 al 9. Muy usado en la vida diaria y en cálculos comunes.</p>
-            <p>Ejemplo: 345 = 3×10² + 4×10 + 5.</p>
-          </article>
-          <article class="glass-card small-card reveal-card">
-            <h3>Binario</h3>
-            <p>Base 2, solo 0 y 1. Es el lenguaje nativo de los circuitos digitales.</p>
-            <p>Ejemplo: 1101₂ = 1×2³ + 1×2² + 0×2¹ + 1×2⁰ = 13.</p>
-          </article>
-          <article class="glass-card small-card reveal-card">
-            <h3>Octal</h3>
-            <p>Base 8, dígitos 0 a 7. Agrupa tres bits para una representación más compacta.</p>
-            <p>Ejemplo: 17₈ = 1×8 + 7 = 15 decimal.</p>
-          </article>
-          <article class="glass-card small-card reveal-card">
-            <h3>Hexadecimal</h3>
-            <p>Base 16, dígitos 0-9 y A-F. Representa cuatro bits por dígito.</p>
-            <p>Ejemplo: 1A₁₆ = 1×16 + 10 = 26 decimal.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="unidad2" class="section reveal">
-        <div class="section-header">
-          <span class="eyebrow">Unidad 2</span>
-          <h2>Algoritmos y Diagramas de Flujo</h2>
-          <p>Aprende por qué los algoritmos son el corazón de la informática y cómo se representan con diagramas de flujo y pseudocódigo.</p>
-        </div>
-
-        <div class="grid-3 reveal-card">
-          <article class="glass-card">
-            <h3>Qué es un algoritmo</h3>
-            <p>Un algoritmo es una serie de pasos ordenados que resuelven un problema o realizan una tarea concreta de forma lógica y finita.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Importancia</h3>
-            <p>Son fundamentales para programar, automatizar procesos, optimizar recursos y garantizar resultados repetibles.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Características</h3>
-            <p>Deben ser claros, finitos, efectivos, precisos y deteministas.</p>
-          </article>
-        </div>
-
-        <div class="grid-3 reveal-card">
-          <article class="glass-card">
-            <h3>Ventajas</h3>
-            <p>Permiten resolver problemas complejos paso a paso, reducen errores y mejoran el mantenimiento del software.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Aplicaciones</h3>
-            <p>Se usan en búsqueda, ordenación, inteligencia artificial, redes, seguridad y todos los programas informáticos.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Ejemplos</h3>
-            <p>Un algoritmo puede ser una receta de cocina, los pasos para iniciar una computadora o un plan para pagar en un supermercado.</p>
-          </article>
-        </div>
-
-        <div class="section-divider"></div>
-
-        <div class="section-header">
-          <h2>Algoritmos de la vida real</h2>
-          <p>Comprender algoritmos con ejemplos cotidianos ayuda a internalizar cómo una solución se divide en pasos claros.</p>
-        </div>
-
-        <div class="grid-4 reveal-card life-grid">
-          <article class="glass-card life-card">
-            <img src="img/algorithm-coffee.svg" alt="Preparar café" />
-            <h4>Preparar café</h4>
-            <p><strong>Objetivo:</strong> Obtener una taza lista para beber.</p>
-            <p><strong>Pasos:</strong> Hervir agua, agregar café, verter y servir.</p>
-          </article>
-          <article class="glass-card life-card">
-            <img src="img/algorithm-hands.svg" alt="Lavarse las manos" />
-            <h4>Lavarse las manos</h4>
-            <p><strong>Objetivo:</strong> Mantener higiene personal.</p>
-            <p><strong>Pasos:</strong> Mojar, enjabonarse, frotar, enjuagar y secar.</p>
-          </article>
-          <article class="glass-card life-card">
-            <img src="img/algorithm-rice.svg" alt="Cocinar arroz" />
-            <h4>Cocinar arroz</h4>
-            <p><strong>Objetivo:</strong> Preparar arroz cocido y suave.</p>
-            <p><strong>Pasos:</strong> Lavar arroz, medir agua, hervir, cocer y reposar.</p>
-          </article>
-          <article class="glass-card life-card">
-            <img src="img/algorithm-crosswalk.svg" alt="Cruzar la calle" />
-            <h4>Cruzar la calle</h4>
-            <p><strong>Objetivo:</strong> Llegar al otro lado con seguridad.</p>
-            <p><strong>Pasos:</strong> Observar, esperar semáforo, cruzar y revisar el entorno.</p>
-          </article>
-          <article class="glass-card life-card">
-            <img src="img/algorithm-computer.svg" alt="Encender la computadora" />
-            <h4>Encender una computadora</h4>
-            <p><strong>Objetivo:</strong> Iniciar un equipo de forma correcta.</p>
-            <p><strong>Pasos:</strong> Presionar encendido, escuchar arranque, ingresar contraseña y abrir programas.</p>
-          </article>
-          <article class="glass-card life-card">
-            <img src="img/algorithm-shopping.svg" alt="Comprar en el supermercado" />
-            <h4>Comprar en supermercado</h4>
-            <p><strong>Objetivo:</strong> Adquirir productos necesarios de forma eficiente.</p>
-            <p><strong>Pasos:</strong> Hacer lista, elegir productos, pagar y revisar recibo.</p>
-          </article>
-          <article class="glass-card life-card">
-            <img src="img/algorithm-message.svg" alt="Enviar mensaje" />
-            <h4>Enviar un mensaje</h4>
-            <p><strong>Objetivo:</strong> Comunicarse con otra persona.</p>
-            <p><strong>Pasos:</strong> Abrir app, seleccionar contacto, escribir y enviar.</p>
-          </article>
-          <article class="glass-card life-card">
-            <img src="img/algorithm-atm.svg" alt="Retirar dinero" />
-            <h4>Retirar dinero</h4>
-            <p><strong>Objetivo:</strong> Obtener efectivo de un cajero.</p>
-            <p><strong>Pasos:</strong> Insertar tarjeta, elegir monto, confirmar y retirar efectivo.</p>
-          </article>
-        </div>
-
-        <div class="section-divider"></div>
-
-        <div class="section-header">
-          <h2>Diagramas de Flujo (DFD)</h2>
-          <p>Los diagramas de flujo representan visualmente las decisiones y operaciones de un algoritmo con símbolos estandarizados.</p>
-        </div>
-
-        <div class="grid-3 reveal-card">
-          <article class="glass-card">
-            <h3>Qué es un DFD</h3>
-            <p>Es una representación gráfica de un algoritmo, donde cada símbolo muestra un paso, una decisión, entrada/salida o un proceso.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Importancia</h3>
-            <p>Facilitan la comprensión del flujo de trabajo y ayudan a detectar errores antes de programar.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Características</h3>
-            <p>Usan símbolos estándar, conectores claros y muestran rutas alternativas según condiciones.</p>
-          </article>
-        </div>
-
-        <div class="grid-3 reveal-card">
-          <article class="glass-card">
-            <h3>Ventajas</h3>
-            <p>Mejoran la comunicación, simplifican el diseño y permiten planificar soluciones antes de codificar.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Desventajas</h3>
-            <p>Si son muy detallados pueden volverse complejos y difíciles de mantener.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Uso práctico</h3>
-            <p>Se emplean en análisis de procesos, presentación de algoritmos y diseño de sistemas.</p>
-          </article>
-        </div>
-
-        <article class="glass-card image-card reveal-card">
-          <img src="img/diagrama.jpg" alt="Diagrama de flujo explicativo" />
-        </article>
-
-        <div class="symbols-grid reveal-card">
-          <article class="symbol-card">
-            <img src="img/dfd-start.svg" alt="Símbolo de inicio" />
-            <h4>Inicio</h4>
-            <p>Marca el punto de entrada del algoritmo.</p>
-          </article>
-          <article class="symbol-card">
-            <img src="img/dfd-end.svg" alt="Símbolo de fin" />
-            <h4>Fin</h4>
-            <p>Indica la terminación del proceso.</p>
-          </article>
-          <article class="symbol-card">
-            <img src="img/dfd-process.svg" alt="Símbolo de proceso" />
-            <h4>Proceso</h4>
-            <p>Representa una operación o cálculo que se ejecuta.</p>
-          </article>
-          <article class="symbol-card">
-            <img src="img/dfd-io.svg" alt="Símbolo de entrada/salida" />
-            <h4>Entrada / Salida</h4>
-            <p>Indica datos que entran o salen del sistema.</p>
-          </article>
-          <article class="symbol-card">
-            <img src="img/dfd-decision.svg" alt="Símbolo de decisión" />
-            <h4>Decisión</h4>
-            <p>Representa una condición con caminos alternativos.</p>
-          </article>
-          <article class="symbol-card">
-            <img src="img/dfd-document.svg" alt="Símbolo de documento" />
-            <h4>Documento</h4>
-            <p>Simboliza un registro o informe generado por el proceso.</p>
-          </article>
-          <article class="symbol-card">
-            <img src="img/dfd-database.svg" alt="Símbolo de base de datos" />
-            <h4>Base de datos</h4>
-            <p>Muestra almacenamiento donde se guarda información estructurada.</p>
-          </article>
-          <article class="symbol-card">
-            <img src="img/dfd-connector.svg" alt="Símbolo de conector" />
-            <h4>Conector</h4>
-            <p>Une diferentes partes del diagrama y conserva claridad.</p>
-          </article>
-          <article class="symbol-card">
-            <img src="img/dfd-arrow.svg" alt="Flecha" />
-            <h4>Flecha</h4>
-            <p>Indica la dirección del flujo entre símbolos.</p>
-          </article>
-        </div>
-
-        <div class="section-divider"></div>
-
-        <div class="section-header">
-          <h2>Ejercicios resueltos</h2>
-          <p>Ejemplos que muestran algoritmos desde la idea hasta el código.</p>
-        </div>
-
-        <div class="grid-2 reveal-card exercise-grid">
-          <article class="glass-card code-card">
-            <h4>Par o impar</h4>
-            <pre>Leer n
-Si n % 2 = 0 Entonces
-  Escribir "par"
-Sino
-  Escribir "impar"
-FinSi</pre>
-          </article>
-          <article class="glass-card code-card">
-            <h4>Compra en supermercado</h4>
-            <pre>Hacer lista
-Ir al supermercado
-Seleccionar productos
-Pagar y salir</pre>
-          </article>
-          <article class="glass-card code-card">
-            <h4>Retirar dinero</h4>
-            <pre>Insertar tarjeta
-Elegir monto
-Confirmar
-Retirar efectivo</pre>
-          </article>
-          <article class="glass-card code-card">
-            <h4>Enviar mensaje</h4>
-            <pre>Seleccionar contacto
-Escribir mensaje
-Presionar enviar
-Esperar confirmación</pre>
-          </article>
-        </div>
-
-        <div class="section-divider"></div>
-
-        <div class="section-header">
-          <h2>Pseudocódigo</h2>
-          <p>El pseudocódigo describe algoritmos con lenguaje natural estructurado antes de programar.</p>
-        </div>
-
-        <div class="grid-3 reveal-card">
-          <article class="glass-card">
-            <h3>Qué es</h3>
-            <p>Es una representación semiestructurada de un algoritmo que usa palabras clave similares a un lenguaje de programación, pero sin sintaxis estricta.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Importancia</h3>
-            <p>Facilita la planificación y el diálogo entre equipo de desarrollo, diseño y usuarios antes de escribir código.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Características</h3>
-            <p>Es fácil de leer, secuencial y no depende de un lenguaje específico.</p>
-          </article>
-        </div>
-
-        <div class="grid-3 reveal-card">
-          <article class="glass-card">
-            <h3>Ventajas</h3>
-            <p>Ayuda a estructurar ideas, reduce errores de lógica y acelera el desarrollo.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Desventajas</h3>
-            <p>No se ejecuta directamente y requiere traducción a un lenguaje real.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Estructuras</h3>
-            <p>Puede representar algoritmos de forma secuencial, condicional y repetitiva.</p>
-          </article>
-        </div>
-
-        <div class="pseudocode-grid reveal-card">
-          <article class="glass-card code-card">
-            <h4>Secuencial</h4>
-            <pre>Leer base
-Leer altura
-area = base * altura
-Escribir area</pre>
-          </article>
-          <article class="glass-card code-card">
-            <h4>Condicional</h4>
-            <pre>Si nota >= 70 Entonces
-  Escribir "Aprobado"
-Sino
-  Escribir "Reprobado"
-FinSi</pre>
-          </article>
-          <article class="glass-card code-card">
-            <h4>Repetitiva</h4>
-            <pre>i = 1
-Mientras i <= 5 Hacer
-  Escribir i
-  i = i + 1
-FinMientras</pre>
-          </article>
-        </div>
-      </section>
-
-      <section id="unidad3" class="section reveal">
-        <div class="section-header">
           <span class="eyebrow">Unidad 3</span>
-          <h2>Python y Mapas de Karnaugh</h2>
-          <p>En esta unidad verás Python desde lo básico hasta estructuras avanzadas, además de mapas de Karnaugh para lógica booleana.</p>
+          <h1>Introducción a Python</h1>
+          <p>Python es un lenguaje de programación versátil, fácil de aprender y ampliamente usado en ciencia de datos, desarrollo web, automatización y más.</p>
+          <div class="hero-buttons">
+            <a class="button primary" href="#basicos">Aprender básicos</a>
+            <a class="button secondary" href="#karnaugh">Ver Karnaugh</a>
+          </div>
         </div>
-
-        <div class="grid-3 reveal-card">
-          <article class="glass-card">
-            <img src="img/python.svg" alt="Icono Python" />
-            <h3>Introducción a Python</h3>
-            <p>Es un lenguaje interpretado, legible y con una sintaxis simple. Funciona en múltiples plataformas y es muy usado en educación y desarrollo.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Historia</h3>
-            <p>Creado por Guido van Rossum en 1991, Python fue diseñado para ser claro, fácil de aprender y expandible.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Características</h3>
-            <p>Tipado dinámico, sintaxis legible, bibliotecas amplias y soporte para paradigmas orientado a objetos y funcional.</p>
-          </article>
+        <div class="hero-image">
+          <img src="img/python.svg" alt="Ilustración relacionada con Python" />
         </div>
+      </section>
 
-        <div class="grid-3 reveal-card">
+      <section id="basicos" class="section reveal-card">
+        <div class="section-header">
+          <span class="eyebrow">Elementos básicos</span>
+          <h2>Variables, tipos, operadores y estructuras</h2>
+          <p>En Python todo es sencillo: las variables guardan información, los operadores transforman datos y las estructuras permiten tomar decisiones repetitivas.</p>
+        </div>
+        <div class="grid-2">
           <article class="glass-card">
-            <h3>Ventajas</h3>
-            <p>Es ideal para prototipos rápidos, automatización y análisis de datos.</p>
-          </article>
-          <article class="glass-card">
-            <h3>Desventajas</h3>
-            <p>Puede ser más lento que lenguajes compilados y consumir más memoria.</p>
+            <h3>Variables</h3>
+            <p>Una variable es un nombre que se usa para almacenar un valor. En Python no hace falta declarar el tipo antes de usarla.</p>
+            <pre><code>nombre = 'Ana'
+edad = 23
+activo = True</code></pre>
           </article>
           <article class="glass-card">
-            <h3>Aplicaciones</h3>
-            <p>Desarrollo web, ciencia de datos, IA, automatización, scripts y aplicaciones de escritorio.</p>
+            <h3>Tipos de datos</h3>
+            <ul>
+              <li><strong>int</strong>: números enteros.</li>
+              <li><strong>float</strong>: números decimales.</li>
+              <li><strong>str</strong>: texto.</li>
+              <li><strong>bool</strong>: True o False.</li>
+              <li><strong>list</strong>: colección ordenada y mutable.</li>
+              <li><strong>tuple</strong>: colección ordenada e inmutable.</li>
+              <li><strong>dictionary</strong>: pares clave-valor.</li>
+              <li><strong>set</strong>: conjunto único de valores.</li>
+            </ul>
           </article>
         </div>
 
-        <div class="section-divider"></div>
-
-        <div class="subsection-header">
-          <h3>Variables y Tipos de datos</h3>
-          <p>En Python, las variables almacenan información y los tipos de datos definen el comportamiento de esa información.</p>
-        </div>
-
-        <div class="grid-4 reveal-card">
-          <article class="glass-card small-card">
-            <h4>Variables</h4>
-            <p>Son etiquetas que almacenan valores. Se pueden reasignar en cualquier momento.</p>
-            <pre>nombre = 'Johana'
-edad = 20
-activo = True</pre>
+        <div class="grid-2">
+          <article class="glass-card">
+            <h3>Operadores</h3>
+            <p>Python usa operadores para contar, comparar y combinar valores.</p>
+            <ul>
+              <li><strong>Aritméticos</strong>: +, -, *, /, %, **</li>
+              <li><strong>Relacionales</strong>: ==, !=, >, <, >=, <=</li>
+              <li><strong>Lógicos</strong>: and, or, not</li>
+              <li><strong>Asignación</strong>: =, +=, -=</li>
+            </ul>
           </article>
-          <article class="glass-card small-card">
-            <h4>int</h4>
-            <p>Enteros sin parte decimal.</p>
-            <pre>a = 10
-b = -5</pre>
-          </article>
-          <article class="glass-card small-card">
-            <h4>float</h4>
-            <p>Números con decimales.</p>
-            <pre>precio = 5.75
-altura = 1.65</pre>
-          </article>
-          <article class="glass-card small-card">
-            <h4>str</h4>
-            <p>Texto encerrado entre comillas.</p>
-            <pre>saludo = 'Hola'
-usuario = "Johana"</pre>
+          <article class="glass-card">
+            <h3>Entrada y salida</h3>
+            <p><strong>input()</strong> lee datos desde el usuario y <strong>print()</strong> muestra resultados.</p>
+            <pre><code>nombre = input('Nombre: ')
+print('Hola', nombre)</code></pre>
           </article>
         </div>
 
-        <div class="grid-4 reveal-card">
-          <article class="glass-card small-card">
-            <h4>bool</h4>
-            <p>Valores de verdad: True o False.</p>
-            <pre>activo = True
-valido = False</pre>
-          </article>
-          <article class="glass-card small-card">
-            <h4>list</h4>
-            <p>Colección ordenada y mutable de elementos.</p>
-            <pre>colores = ['rojo', 'azul', 'verde']</pre>
-          </article>
-          <article class="glass-card small-card">
-            <h4>tuple</h4>
-            <p>Colección ordenada e inmutable.</p>
-            <pre>punto = (10, 20)</pre>
-          </article>
-          <article class="glass-card small-card">
-            <h4>dictionary</h4>
-            <p>Colección de pares clave-valor.</p>
-            <pre>persona = {'nombre': 'Johana', 'edad': 20}</pre>
-          </article>
-        </div>
-
-        <div class="grid-2 reveal-card">
-          <article class="glass-card small-card">
-            <h4>set</h4>
-            <p>Conjunto de valores únicos sin orden específico.</p>
-            <pre>colores = {'rojo', 'azul', 'verde'}</pre>
-          </article>
-          <article class="glass-card small-card">
-            <h4>Operadores</h4>
-            <p>Permiten operaciones aritméticas, comparaciones y lógica.</p>
-            <p>Aritméticos: +, -, *, /, %, **</p>
-            <p>Relacionales: ==, !=, >, <, >=, <=</p>
-            <p>Lógicos: and, or, not</p>
-          </article>
-        </div>
-
-        <div class="section-divider"></div>
-
-        <div class="grid-2 reveal-card">
-          <article class="glass-card code-card">
-            <h4>Entrada y salida</h4>
-            <pre>nombre = input('Nombre: ')
-print('Hola', nombre)</pre>
-          </article>
-          <article class="glass-card code-card">
-            <h4>Condicionales</h4>
-            <pre>if edad >= 18:
-  print('Mayor de edad')
+        <div class="grid-2">
+          <article class="glass-card">
+            <h3>Condicionales</h3>
+            <p>Permiten tomar decisiones según el valor de una expresión.</p>
+            <pre><code>if edad >= 18:
+  print('Adulto')
 elif edad >= 13:
   print('Adolescente')
 else:
-  print('Niño')</pre>
+  print('Niño')</code></pre>
           </article>
-        </div>
-
-        <div class="grid-2 reveal-card">
-          <article class="glass-card code-card">
-            <h4>Ciclos</h4>
-            <pre>for i in range(5):
+          <article class="glass-card">
+            <h3>Ciclos</h3>
+            <p>Repetir código con <strong>for</strong> y <strong>while</strong> ayuda a procesar listas y hacer tareas múltiples.</p>
+            <pre><code>for i in range(5):
   print(i)
 
-while i < 5:
-  i += 1</pre>
-          </article>
-          <article class="glass-card code-card">
-            <h4>Funciones</h4>
-            <pre>def saludar(nombre):
-  return f'Hola {nombre}'
-
-print(saludar('Johana'))</pre>
+n = 0
+while n < 5:
+  print(n)
+  n += 1</code></pre>
           </article>
         </div>
 
-        <div class="grid-3 reveal-card">
-          <article class="glass-card small-card">
-            <h4>Listas</h4>
-            <p>Permiten almacenar múltiples valores modificables.</p>
-            <pre>frutas = ['manzana', 'banana']
-frutas.append('uva')</pre>
-          </article>
-          <article class="glass-card small-card">
-            <h4>Tuplas</h4>
-            <p>Son similares a las listas, pero inmutables.</p>
-            <pre>coordenada = (10, 20)</pre>
-          </article>
-          <article class="glass-card small-card">
-            <h4>Diccionarios</h4>
-            <p>Guardan datos con claves únicas.</p>
-            <pre>persona = {'nombre': 'Johana', 'edad': 20}</pre>
-          </article>
-        </div>
-
-        <div class="section-divider"></div>
-
-        <div class="section-header">
-          <h2>Mapas de Karnaugh</h2>
-          <p>Los mapas de Karnaugh simplifican funciones booleanas de forma visual y ayudan a diseñar circuitos más eficientes.</p>
-        </div>
-
-        <div class="grid-3 reveal-card kmap-grid">
-          <article class="glass-card symbol-card">
-            <img src="img/kmap-2.svg" alt="Mapa de Karnaugh 2 variables" />
-            <h4>2 variables</h4>
-            <p>Permite agrupar combinaciones adyacentes para simplificar expresiones simples.</p>
-          </article>
-          <article class="glass-card symbol-card">
-            <img src="img/kmap-3.svg" alt="Mapa de Karnaugh 3 variables" />
-            <h4>3 variables</h4>
-            <p>Organiza ocho combinaciones y reduce expresiones con tres variables.</p>
-          </article>
-          <article class="glass-card symbol-card">
-            <img src="img/kmap-4.svg" alt="Mapa de Karnaugh 4 variables" />
-            <h4>4 variables</h4>
-            <p>Ofrece una vista eficiente para simplificar funciones con cuatro variables.</p>
-          </article>
-        </div>
-
-        <article class="glass-card image-card reveal-card">
-          <img src="img/mapa.jpg" alt="Mapa de Karnaugh completo" />
-        </article>
-
-        <div class="grid-2 reveal-card exercise-grid">
-          <article class="glass-card code-card">
-            <h4>Ejercicio 1</h4>
-            <p>Simplificar la función F = Σ(0,1,2,5).</p>
-            <pre>Mapa de 2 variables y agrupación de celdas adyacentes. Resultado: F = A' + B</pre>
-          </article>
-          <article class="glass-card code-card">
-            <h4>Ejercicio 2</h4>
-            <p>Simplificar la función F = Σ(0,2,3,5,7).</p>
-            <pre>Usar mapa de 3 variables, agrupar en pares. Resultado: F = A'B + BC.</pre>
-          </article>
-        </div>
-
-        <div class="section-divider"></div>
-
-        <div class="section-header">
-          <h2>Ejercicios de Python</h2>
-          <p>Práctica con código real para afianzar cada concepto de Python.</p>
-        </div>
-
-        <div class="grid-2 reveal-card">
-          <article class="glass-card code-card">
-            <h4>Suma de dos valores</h4>
-            <pre>a = int(input('a: '))
-b = int(input('b: '))
-print(a + b)</pre>
-          </article>
-          <article class="glass-card code-card">
-            <h4>Convertir grados</h4>
-            <pre>C = float(input('Celsius: '))
-F = C * 9/5 + 32
-print('Fahrenheit:', F)</pre>
-          </article>
-        </div>
-
-        <div class="grid-2 reveal-card">
-          <article class="glass-card code-card">
-            <h4>Verificar palabra</h4>
-            <pre>texto = input('Texto: ')
-if 'hola' in texto.lower():
-  print('Contiene hola')
-else:
-  print('No contiene')</pre>
-          </article>
-          <article class="glass-card code-card">
-            <h4>Bucle while</h4>
-            <pre>n = int(input('n: '))
-i = 1
-suma = 0
-while i <= n:
-  suma += i
-  i += 1
-print(suma)</pre>
-          </article>
+        <div class="image-panel">
+          <img src="img/python-code.svg" alt="Programación en Python" />
         </div>
       </section>
 
-      <footer class="footer reveal-card">
-        <p>Johana Laica - Ingeniería en software</p>
-      </footer>
+      <section id="ejemplos" class="section reveal-card section-alt">
+        <div class="section-header">
+          <span class="eyebrow">Ejemplos en Python</span>
+          <h2>Pequeños programas para practicar</h2>
+          <p>Estos ejemplos muestran cómo escribir ejercicios básicos en Python de forma clara y precisa.</p>
+        </div>
+        <div class="grid-3">
+          <article class="code-card">
+            <h3>Suma de dos números</h3>
+            <pre><code>a = int(input('a: '))
+b = int(input('b: '))
+print('Suma =', a + b)</code></pre>
+          </article>
+          <article class="code-card">
+            <h3>Calcular promedio</h3>
+            <pre><code>n1 = float(input('Nota 1: '))
+n2 = float(input('Nota 2: '))
+promedio = (n1 + n2) / 2
+print('Promedio =', promedio)</code></pre>
+          </article>
+          <article class="code-card">
+            <h3>Par o impar</h3>
+            <pre><code>numero = int(input('Número: '))
+if numero % 2 == 0:
+  print('Par')
+else:
+  print('Impar')</code></pre>
+          </article>
+        </div>
+        <div class="image-panel">
+          <img src="img/python-apps.svg" alt="Código de Python" />
+        </div>
+      </section>
+
+      <section id="karnaugh" class="section reveal-card">
+        <div class="section-header">
+          <span class="eyebrow">Mapa de Karnaugh</span>
+          <h2>Simplificación de funciones booleanas</h2>
+          <p>Un mapa de Karnaugh ayuda a visualizar términos de una función lógica y encontrar expresiones más simples.</p>
+        </div>
+        <div class="grid-2">
+          <article class="glass-card">
+            <h3>¿Qué es?</h3>
+            <p>Es una tabla visual que organiza combinaciones de variables para identificar grupos de términos adyacentes.</p>
+          </article>
+          <article class="glass-card">
+            <h3>¿Para qué sirve?</h3>
+            <p>Sirve para simplificar funciones booleanas y reducir la complejidad de circuitos digitales.</p>
+          </article>
+        </div>
+
+        <div class="grid-3">
+          <article class="glass-card">
+            <h3>2 variables</h3>
+            <img src="img/kmap-2.svg" alt="Mapa de Karnaugh 2 variables" />
+          </article>
+          <article class="glass-card">
+            <h3>3 variables</h3>
+            <img src="img/kmap-3.svg" alt="Mapa de Karnaugh 3 variables" />
+          </article>
+          <article class="glass-card">
+            <h3>4 variables</h3>
+            <img src="img/kmap-4.svg" alt="Mapa de Karnaugh 4 variables" />
+          </article>
+        </div>
+
+        <article class="glass-card code-card">
+          <h3>Ejemplo resuelto</h3>
+          <p>Simplificar la función F = Σ(0,1,2,5) en un mapa de 2 variables.</p>
+          <pre><code>AB  00 01 11 10
+F   1  1  0  1
+
+Agrupar 00 y 01 -> A' 
+Agrupar 00 y 10 -> B'
+Resultado: F = A' + B'</code></pre>
+        </article>
+        <div class="image-panel">
+          <img src="img/karnaugh.svg" alt="Mapa de Karnaugh y lógica digital" />
+        </div>
+      </section>
+
+      <section id="aplicaciones" class="section reveal-card section-alt">
+        <div class="section-header">
+          <span class="eyebrow">Aplicaciones</span>
+          <h2>Uso de Python y mapas de Karnaugh</h2>
+          <p>Python y Karnaugh se aplican en diferentes áreas: desde desarrollo de software hasta diseño de circuitos y automatización digital.</p>
+        </div>
+        <div class="grid-2">
+          <article class="glass-card">
+            <h3>Python se usa en:</h3>
+            <ul>
+              <li>Desarrollo web</li>
+              <li>Ciencia de datos</li>
+              <li>Inteligencia artificial</li>
+              <li>Automatización y scripting</li>
+            </ul>
+          </article>
+          <article class="glass-card">
+            <h3>Mapas de Karnaugh se usan en:</h3>
+            <ul>
+              <li>Diseño de circuitos digitales</li>
+              <li>Optimización de lógica booleana</li>
+              <li>Sistemas embebidos</li>
+              <li>Electrónica digital</li>
+            </ul>
+          </article>
+        </div>
+        <div class="grid-2">
+          <div class="image-panel">
+            <img src="img/python-apps.svg" alt="Aplicaciones de Python" />
+          </div>
+          <div class="image-panel">
+            <img src="img/karnaugh-apps.svg" alt="Aplicaciones de Karnaugh" />
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <p>Unidad 3 - Python y Mapas de Karnaugh | Página educativa responsiva</p>
+    </footer>
   </div>
   <script src="script.js"></script>
 </body>

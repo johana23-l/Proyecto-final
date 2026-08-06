@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 420">
+  <rect x="20" y="20" width="620" height="380" rx="40" fill="#0d172d" stroke="#334155" stroke-width="3" />
+  <rect x="120" y="80" width="440" height="260" fill="#111c36" rx="28" />
+  <g fill="none" stroke="#60a5fa" stroke-width="3">
+    <path d="M120 140h440" />
+    <path d="M120 200h440" />
+    <path d="M120 260h440" />
+    <path d="M190 80v260" />
+    <path d="M260 80v260" />
+    <path d="M330 80v260" />
+    <path d="M400 80v260" />
+    <path d="M470 80v260" />
+  </g>
+  <text x="150" y="125" fill="#dbeafe" font-family="Arial" font-size="16">A</text>
+  <text x="260" y="125" fill="#dbeafe" font-family="Arial" font-size="16">B</text>
+  <text x="370" y="125" fill="#dbeafe" font-family="Arial" font-size="16">C</text>
+  <text x="480" y="125" fill="#dbeafe" font-family="Arial" font-size="16">D</text>
+  <text x="145" y="200" fill="#bfdbfe" font-family="Arial" font-size="18">00</text>
+  <text x="215" y="200" fill="#bfdbfe" font-family="Arial" font-size="18">01</text>
+  <text x="285" y="200" fill="#bfdbfe" font-family="Arial" font-size="18">11</text>
+  <text x="355" y="200" fill="#bfdbfe" font-family="Arial" font-size="18">10</text>
+  <text x="425" y="200" fill="#bfdbfe" font-family="Arial" font-size="18">0</text>
+  <text x="425" y="260" fill="#bfdbfe" font-family="Arial" font-size="18">1</text>
+</svg>
